@@ -8,5 +8,7 @@ gcc -c <filename.c>  : This compile C file into object .o file. i.e filename.o f
 
 gcc -S <filename.c> : This will compile the C file into .s file i.e assembler code
 
+gcc <filenem.c> -o <runfilename>  : This will compile the C file into executable file and save it to <runfilename>. To run the file type ./runfilename
+
 
 
