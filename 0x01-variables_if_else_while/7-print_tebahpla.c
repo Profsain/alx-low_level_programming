@@ -4,18 +4,18 @@
 
 /**
  *main - Entry point of the app
- *print numbers between 0-10
+ *print alphabet in reverse order
  *Return: Always 0 - Success
  */
 
 int main(void)
 {
-	int n = 0;
+	char alpha = 'z';
 
-	while (n <= 10)
+	while (alpha >= 'a')
 	{
-		printf("%i", n);
-		n++;
+		putchar(alpha);
+		alpha--;
 	}
 	putchar('\n');
 
