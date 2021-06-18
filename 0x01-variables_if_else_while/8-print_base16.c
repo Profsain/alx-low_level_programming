@@ -22,7 +22,7 @@ int main(void)
 	while (h_a_to_f <= 'f') /*print a-f*/
 	{
 		putchar(h_a_to_f);
-		h_a_to_f++
+		h_a_to_f++;
 	}
 	putchar('\n');
 
