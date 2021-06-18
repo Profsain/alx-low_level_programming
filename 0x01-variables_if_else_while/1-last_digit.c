@@ -10,20 +10,18 @@
 int main(void)
 {
 	int n;
-	int ldigit;
 
 	/* generate random number */
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	ldigit = n % 10;
 
-	print("Last digit of %i is %i and is ", n, (n % 10));
+	printf("Last digit of %i is %i and is ", n, (n % 10));
 
-	if (ldigit == 0)
+	if ((n % 10) == 0)
 	{
 		printf("0\n");
 	}
-	else if (ldigit > 5)
+	else if ((n % 10) > 5)
 	{
 		printf("greater that 5\n");
 	}
