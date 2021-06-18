@@ -4,7 +4,7 @@
 
 /**
  *main - Entry point of the app
- *print lowercase a-z
+ *print lowercase a-z except q and e
  *Return: Always 0 - Success
  */
 
@@ -14,7 +14,7 @@ int main(void)
 
 	while (alphabet <= 'z')
 	{
-		if ((alphabet != 'q') && (alphabet != 'e))
+		if ((alphabet != 'q') && (alphabet != 'e'))
 		{
 			putchar(alphabet);
 		}
