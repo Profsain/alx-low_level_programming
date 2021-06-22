@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * print alphabet a-z in lowercase
- * return: 0
+ * print_alphabet - prints a-z in lowercase
+ * Return: 0
  */
 
 void print_alphabet(void)
