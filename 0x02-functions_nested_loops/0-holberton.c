@@ -1,9 +1,8 @@
 #include "holberton.h"
 
 /**
- *Main function: The entry point of the app
- *Return 0 (Success)
- *Program to print Holberton, followed by a new line
+ * main - print Holberton, followed by new line
+ * Return: 0
  */
 
 int main(void)
