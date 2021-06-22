@@ -6,7 +6,7 @@
  *Program to print Holberton, followed by a new line
  */
 
-int main (void)
+int main(void)
 {
 	_putchar('H');
 	_putchar('o');
