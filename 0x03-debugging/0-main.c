@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "holberton.h"
-#include "main.c"
 
 /**
  * main - tests function for correct ouptu when given a case of 0
@@ -9,7 +7,10 @@
 
 int main(void)
 {
-	assert positive_or_negative(0) == 0;
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
 
 	return (0);
 }
