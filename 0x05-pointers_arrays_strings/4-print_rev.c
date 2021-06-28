@@ -15,6 +15,9 @@ void print_rev(char *s)
 		len++;
 		++s;
 	}
+
+	/* reset s */
+	s--;
 	/* print in reverse form */
 	for (i = len; i > 0; i--)
 	{
