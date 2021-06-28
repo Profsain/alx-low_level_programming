@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _puuts - print a string, follow by new line to stdout
+ * _puts - print a string, follow by new line to stdout
  * @str: string to print
  */
 
