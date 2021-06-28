@@ -16,7 +16,7 @@ void print_rev(char *s)
 		++s;
 	}
 	/* print in reverse form */
-	for (i = len; - > 0; i--)
+	for (i = len; i > 0; i--)
 	{
 		_putchar(*s);
 		s--;
