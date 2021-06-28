@@ -7,7 +7,18 @@
 
 void print_rev(char *s)
 {
+	int len = 0;
+	int i;
+	/* find the length of string */
 	while (*s != '\0')
-		_putchar(*s--);
-	_putchar('\n');
+	{
+		len++;
+		++s;
+	}
+	/* print in reverse form */
+	for (i = len; - > 0; i--)
+	{
+		_putchar(*s);
+		s--;
+	}
 }
