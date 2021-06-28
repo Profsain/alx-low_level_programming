@@ -13,7 +13,7 @@ int _putchar(char c);
 
 /**
  * reset_to_98 - takes a pointer parameter and updates the vlue it point to
- * Return: 0 on success
+ * @n: parameter int n
  */
 
 void reset_to_98(int *n);
